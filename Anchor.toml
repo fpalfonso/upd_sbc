@@ -4,14 +4,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 upd_sbc = "GCGcqanABcRwwfVXyma59p8H1mX7KPNLwodbdG9Ee1g7"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/fpalfonso/.config/solana/id.json"
 
 [scripts]
