@@ -18,4 +18,6 @@ In this app, the user can:
     - A post will display the author, content, and the timestamp.
 3. Enter post and submit it.
 
+Access the dApp here: https://upd-sbc.vercel.app/
+
 Note: I need to approve the transactions first. Inform me if you want to interact with the app in order to approve transactions.
