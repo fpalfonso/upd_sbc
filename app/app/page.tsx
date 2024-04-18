@@ -54,6 +54,7 @@ export default function Home() {
     try {
       const resp = await provider.connect();
       setconnectedWallet(resp.publicKey.toString());
+      onGetPosts();
     } catch (e) {
       alert(e);
     }
@@ -77,7 +78,6 @@ export default function Home() {
       setcontent("");
       alert("Please wait.");
       alert("Signature: " + signature.toString());
-      onGetPosts;
     } catch (e) {
       alert(e);
     }
